@@ -1,0 +1,12 @@
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\bin\Debug\NewRental.exe.config
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\bin\Debug\NewRental.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\bin\Debug\NewRental.pdb
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\bin\Debug\NewRental.xml
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\obj\Debug\NewRental.vbprojAssemblyReference.cache
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\obj\Debug\NewRental.Resources.resources
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\obj\Debug\NewRental.TemplateForm.resources
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\obj\Debug\NewRental.vbproj.GenerateResource.cache
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\obj\Debug\NewRental.vbproj.CoreCompileInputs.cache
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\obj\Debug\NewRental.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\obj\Debug\NewRental.xml
+C:\Users\lenovo\AppData\Local\Temporary Projects\NewRental\obj\Debug\NewRental.pdb

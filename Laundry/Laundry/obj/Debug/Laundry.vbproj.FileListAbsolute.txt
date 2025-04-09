@@ -1,0 +1,42 @@
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\bin\Debug\Laundry.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\bin\Debug\Laundry.exe
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\bin\Debug\Laundry.pdb
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\bin\Debug\Laundry.xml
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.vbprojAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.LoginForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.MainForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.TemplateForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.vbproj.GenerateResource.cache
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.vbproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.exe
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.xml
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.pdb
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.EmployeeForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.PackageForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.ServiceForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.AddCustomerForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.PrepaidForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.TransactionForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Laundry\Laundry\obj\Debug\Laundry.ViewTransactionForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\bin\Debug\Laundry.exe.config
+E:\Documents\VS Project\Projects\Laundry\Laundry\bin\Debug\Laundry.exe
+E:\Documents\VS Project\Projects\Laundry\Laundry\bin\Debug\Laundry.pdb
+E:\Documents\VS Project\Projects\Laundry\Laundry\bin\Debug\Laundry.xml
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.vbprojAssemblyReference.cache
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.LoginForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.MainForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.EmployeeForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.PackageForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.ServiceForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.AddCustomerForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.PrepaidForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.TransactionForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.ViewTransactionForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.Resources.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.TemplateForm.resources
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.vbproj.GenerateResource.cache
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.vbproj.CoreCompileInputs.cache
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.exe
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.xml
+E:\Documents\VS Project\Projects\Laundry\Laundry\obj\Debug\Laundry.pdb

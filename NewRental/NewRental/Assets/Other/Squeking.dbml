@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NewRental" Class="SquekingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-SKY6942\ALLANBIL;Initial Catalog=NewRental;Integrated Security=True" SettingsObjectName="NewRental.My.MySettings" SettingsPropertyName="NewRentalConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Denda" Member="Dendas">
+    <Type Name="Denda">
+      <Column Name="DendaId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Denda" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PinjamHeader" Member="PinjamHeaders">
+    <Type Name="PinjamHeader">
+      <Column Name="PinjamHeaderId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KaryawanId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PelangganId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TglPinjam" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TglKembali" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="HargaTotal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Association Name="PinjamHeader_Kembali" Member="Kembalis" ThisKey="PinjamHeaderId" OtherKey="PinjamHeaderId" Type="Kembali" />
+      <Association Name="PinjamHeader_PinjamDetail" Member="PinjamDetails" ThisKey="PinjamHeaderId" OtherKey="PinjamHeaderId" Type="PinjamDetail" />
+      <Association Name="Karyawan_PinjamHeader" Member="Karyawan" ThisKey="KaryawanId" OtherKey="KaryawanId" Type="Karyawan" IsForeignKey="true" />
+      <Association Name="Pelanggan_PinjamHeader" Member="Pelanggan" ThisKey="PelangganId" OtherKey="PelangganId" Type="Pelanggan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Karyawan" Member="Karyawans">
+    <Type Name="Karyawan">
+      <Column Name="KaryawanId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KaryawanNama" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Alamat" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="NoHP" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="Karyawan_PinjamHeader" Member="PinjamHeaders" ThisKey="KaryawanId" OtherKey="KaryawanId" Type="PinjamHeader" />
+      <Association Name="Karyawan_Kembali" Member="Kembalis" ThisKey="KaryawanId" OtherKey="KaryawanId" Type="Kembali" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kaset" Member="Kasets">
+    <Type Name="Kaset">
+      <Column Name="KasetId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KasetNama" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Jenis" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Harga" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Stok" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Kaset_PinjamDetail" Member="PinjamDetails" ThisKey="KasetId" OtherKey="KasetId" Type="PinjamDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kembali" Member="Kembalis">
+    <Type Name="Kembali">
+      <Column Name="KembaliId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PinjamHeaderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KaryawanId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TglKembali" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TglDikembali" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Denda" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Karyawan_Kembali" Member="Karyawan" ThisKey="KaryawanId" OtherKey="KaryawanId" Type="Karyawan" IsForeignKey="true" />
+      <Association Name="PinjamHeader_Kembali" Member="PinjamHeader" ThisKey="PinjamHeaderId" OtherKey="PinjamHeaderId" Type="PinjamHeader" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pelanggan" Member="Pelanggans">
+    <Type Name="Pelanggan">
+      <Column Name="PelangganId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PelangganNama" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Alamat" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="NoHP" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Pelanggan_PinjamHeader" Member="PinjamHeaders" ThisKey="PelangganId" OtherKey="PelangganId" Type="PinjamHeader" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PinjamDetail" Member="PinjamDetails">
+    <Type Name="PinjamDetail">
+      <Column Name="PinjamDetailId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PinjamHeaderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KasetId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Qty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Harga" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Association Name="Kaset_PinjamDetail" Member="Kaset" ThisKey="KasetId" OtherKey="KasetId" Type="Kaset" IsForeignKey="true" />
+      <Association Name="PinjamHeader_PinjamDetail" Member="PinjamHeader" ThisKey="PinjamHeaderId" OtherKey="PinjamHeaderId" Type="PinjamHeader" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14, 11.125" name="SQuek">
+  <DataContextMoniker Name="/SquekDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2605f74c-f0ec-4d92-b687-bf06539105bd" absoluteBounds="0.75, 2.875, 2, 1.193992513020834">
+      <DataClassMoniker Name="/SquekDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24b8defa-7b9f-4997-ad45-8747a0ef64fc" absoluteBounds="0.765, 3.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4cc0cec5-f1ad-4a03-92a2-d8652cbd2571" absoluteBounds="0.75, 0.875, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SquekDataContext/Unit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c93ee358-39db-410d-882a-7a84a7fdf87c" absoluteBounds="0.765, 1.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4bb7025a-bb7c-4aa0-ab44-ae765e018249" absoluteBounds="6.25, 6.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SquekDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="341dcd54-3ab5-4889-a8ea-bbdbe7662f88" absoluteBounds="6.265, 6.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71f11671-a406-468f-a943-dce2ed1d108f" absoluteBounds="11.75, 2.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SquekDataContext/DetailDeposit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40c48e58-a58f-43cb-b207-8bf970d21e56" absoluteBounds="11.765, 2.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7022d280-da4d-4d43-8420-d6c837e911fa" absoluteBounds="6.25, 8.375, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/SquekDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c1f30cc-52e6-4578-904b-f91b9eefffa8" absoluteBounds="6.265, 8.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b06ab78d-7c3d-45e1-9da6-3f76f2d5f263" absoluteBounds="9, 7.625, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/SquekDataContext/HeaderDeposit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be24ce95-975c-4753-9d97-f11b5535daec" absoluteBounds="9.015, 8.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5a360e04-3628-4d17-8cb9-0a52dcea0a91" absoluteBounds="3.5, 9.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/SquekDataContext/Job" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3126971d-010a-4856-b994-caa29774f73b" absoluteBounds="3.515, 9.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af071a8f-a2a0-4cc9-af13-7d7dfde02136" absoluteBounds="6.25, 2.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SquekDataContext/Package" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e909ff92-579b-4d45-82a2-08ca22332e10" absoluteBounds="6.265, 3.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13062861-8bda-44cc-b0e2-e6467f1f5352" absoluteBounds="9, 2.5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/SquekDataContext/PrepaidPackage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b5077963-9b0a-496a-87c4-70aa034b7913" absoluteBounds="9.015, 2.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="02de6591-97be-4185-adbb-8f0a8f392df7" absoluteBounds="3.5, 2.5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/SquekDataContext/Service" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6e83ba61-7adc-43ac-81c2-972d0b1dac20" absoluteBounds="3.515, 2.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11 : 8.51044840494792); (12.75 : 8.51044840494792); (12.75 : 4.53049967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/HeaderDeposit/HeaderDeposit_DetailDeposit" />
+      <nodes>
+        <classShapeMoniker Id="b06ab78d-7c3d-45e1-9da6-3f76f2d5f263" />
+        <classShapeMoniker Id="71f11671-a406-468f-a943-dce2ed1d108f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 6.8749995); (10 : 6.8749995); (10 : 7.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Customer/Customer_HeaderDeposit" />
+      <nodes>
+        <classShapeMoniker Id="4bb7025a-bb7c-4aa0-ab44-ae765e018249" />
+        <classShapeMoniker Id="b06ab78d-7c3d-45e1-9da6-3f76f2d5f263" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 8.88544840494792); (9 : 8.88544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Employee/Employee_HeaderDeposit" />
+      <nodes>
+        <classShapeMoniker Id="7022d280-da4d-4d43-8420-d6c837e911fa" />
+        <classShapeMoniker Id="b06ab78d-7c3d-45e1-9da6-3f76f2d5f263" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.72199625651042); (6.25 : 9.72199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Job/Job_Employee" />
+      <nodes>
+        <classShapeMoniker Id="5a360e04-3628-4d17-8cb9-0a52dcea0a91" />
+        <classShapeMoniker Id="7022d280-da4d-4d43-8420-d6c837e911fa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 3.48159912109375); (11.75 : 3.48159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/PrepaidPackage/PrepaidPackage_DetailDeposit" />
+      <nodes>
+        <classShapeMoniker Id="13062861-8bda-44cc-b0e2-e6467f1f5352" />
+        <classShapeMoniker Id="71f11671-a406-468f-a943-dce2ed1d108f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 6.125); (8.625 : 5.75); (8.625 : 3.48159912109375); (9 : 3.48159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Customer/Customer_PrepaidPackage" />
+      <nodes>
+        <classShapeMoniker Id="4bb7025a-bb7c-4aa0-ab44-ae765e018249" />
+        <classShapeMoniker Id="13062861-8bda-44cc-b0e2-e6467f1f5352" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 3.96759724934896); (8.54166666666667 : 3.96759724934896 : JumpStart); (8.70833333333333 : 3.96759724934896 : JumpEnd); (9 : 3.96759724934896)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Package/Package_PrepaidPackage" />
+      <nodes>
+        <classShapeMoniker Id="af071a8f-a2a0-4cc9-af13-7d7dfde02136" />
+        <classShapeMoniker Id="13062861-8bda-44cc-b0e2-e6467f1f5352" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.4631982421875); (5.875 : 4.8381982421875); (5.875 : 4.90549967447917); (11.375 : 4.90549967447917); (11.75 : 4.53049967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Service/Service_DetailDeposit" />
+      <nodes>
+        <classShapeMoniker Id="02de6591-97be-4185-adbb-8f0a8f392df7" />
+        <classShapeMoniker Id="71f11671-a406-468f-a943-dce2ed1d108f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.53929768880208); (6.25 : 3.53929768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Service/Service_Package" />
+      <nodes>
+        <classShapeMoniker Id="02de6591-97be-4185-adbb-8f0a8f392df7" />
+        <classShapeMoniker Id="af071a8f-a2a0-4cc9-af13-7d7dfde02136" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.47199625651042); (3.5 : 3.47199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Category/Category_Service" />
+      <nodes>
+        <classShapeMoniker Id="2605f74c-f0ec-4d92-b687-bf06539105bd" />
+        <classShapeMoniker Id="02de6591-97be-4185-adbb-8f0a8f392df7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.47199625651042); (4.5 : 1.47199625651042); (4.5 : 2.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Unit/Unit_Service" />
+      <nodes>
+        <classShapeMoniker Id="4cc0cec5-f1ad-4a03-92a2-d8652cbd2571" />
+        <classShapeMoniker Id="02de6591-97be-4185-adbb-8f0a8f392df7" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

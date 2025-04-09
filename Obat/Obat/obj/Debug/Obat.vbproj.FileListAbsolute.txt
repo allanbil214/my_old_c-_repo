@@ -1,0 +1,12 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\bin\Debug\Obat.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\bin\Debug\Obat.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\bin\Debug\Obat.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\bin\Debug\Obat.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\obj\Debug\Obat.vbprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\obj\Debug\Obat.Login.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\obj\Debug\Obat.MainMenu.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\obj\Debug\Obat.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\obj\Debug\Obat.vbproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\obj\Debug\Obat.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\obj\Debug\Obat.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\Obat\Obat\obj\Debug\Obat.pdb

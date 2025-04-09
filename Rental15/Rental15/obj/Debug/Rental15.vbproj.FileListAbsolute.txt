@@ -1,0 +1,40 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\bin\Debug\Rental15.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\bin\Debug\Rental15.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\bin\Debug\Rental15.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\bin\Debug\Rental15.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.vbproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.vbprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formLogin.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formMain.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formCD.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formKaryawan.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formPelanggan.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formDenda.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formCari1.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formCari2.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formPinjam.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Rental15\Rental15\obj\Debug\Rental15.formKembali.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.vbprojAssemblyReference.cache
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formLogin.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formMain.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formCD.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formDenda.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formKaryawan.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formPelanggan.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formCari1.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formCari2.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formKembali.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.formPinjam.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.Resources.resources
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.vbproj.GenerateResource.cache
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.exe
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.xml
+E:\Documents\VS Project\Projects\Rental15\Rental15\obj\Debug\Rental15.pdb
+E:\Documents\VS Project\Projects\Rental15\Rental15\bin\Debug\Rental15.exe.config
+E:\Documents\VS Project\Projects\Rental15\Rental15\bin\Debug\Rental15.exe
+E:\Documents\VS Project\Projects\Rental15\Rental15\bin\Debug\Rental15.pdb
+E:\Documents\VS Project\Projects\Rental15\Rental15\bin\Debug\Rental15.xml

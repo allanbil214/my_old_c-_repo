@@ -1,0 +1,34 @@
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\bin\Debug\Rental.exe.config
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\bin\Debug\Rental.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\bin\Debug\Rental.pdb
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\bin\Debug\Rental.xml
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.vbprojAssemblyReference.cache
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.LoginForm.resources
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.MainForm.resources
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.TemplateForm.resources
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.Resources.resources
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.vbproj.GenerateResource.cache
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.vbproj.CoreCompileInputs.cache
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.xml
+C:\Users\lenovo\AppData\Local\Temporary Projects\Rental\obj\Debug\Rental.pdb
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\bin\Debug\Rental.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\bin\Debug\Rental.exe
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\bin\Debug\Rental.pdb
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\bin\Debug\Rental.xml
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.vbprojAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.ChangePasswordForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.LoginForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.MainForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.TemplateForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.vbproj.GenerateResource.cache
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.vbproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.exe
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.xml
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.pdb
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.KasetForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.KaryawanForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.PelangganForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.PinjamForm.resources
+C:\Users\lenovo\Documents\Visual Studio 2017\Projects\Rental\Rental\obj\Debug\Rental.Chart.resources

@@ -1,0 +1,607 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Peminjaman32
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.btn4 = New System.Windows.Forms.Button()
+        Me.btn1 = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnfilter = New System.Windows.Forms.Button()
+        Me.txtfilter = New System.Windows.Forms.TextBox()
+        Me.cbfilter = New System.Windows.Forms.ComboBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.dgv1 = New System.Windows.Forms.DataGridView()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtnama = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.txtmember = New System.Windows.Forms.TextBox()
+        Me.txtjudul = New System.Windows.Forms.TextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.txtpegawai = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.txtkode = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtkaset = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.tglkembali = New System.Windows.Forms.DateTimePicker()
+        Me.tglpinjam = New System.Windows.Forms.DateTimePicker()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.txtpinjam = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.tglawal = New System.Windows.Forms.DateTimePicker()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.tglakhir = New System.Windows.Forms.DateTimePicker()
+        Me.btntampil = New System.Windows.Forms.Button()
+        Me.txtlap = New System.Windows.Forms.Button()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        CType(Me.dgv1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Location = New System.Drawing.Point(1, 0)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(831, 442)
+        Me.TabControl1.TabIndex = 0
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.TableLayoutPanel1)
+        Me.TabPage1.Controls.Add(Me.GroupBox2)
+        Me.TabPage1.Controls.Add(Me.Panel1)
+        Me.TabPage1.Controls.Add(Me.dgv1)
+        Me.TabPage1.Controls.Add(Me.GroupBox1)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(823, 416)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Peminjaman"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.txtlap)
+        Me.TabPage2.Controls.Add(Me.btntampil)
+        Me.TabPage2.Controls.Add(Me.Label13)
+        Me.TabPage2.Controls.Add(Me.tglakhir)
+        Me.TabPage2.Controls.Add(Me.Label12)
+        Me.TabPage2.Controls.Add(Me.tglawal)
+        Me.TabPage2.Controls.Add(Me.DataGridView1)
+        Me.TabPage2.Controls.Add(Me.Panel2)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(823, 416)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Riwayat Peminjaman"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.TableLayoutPanel1.ColumnCount = 2
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.btn4, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.btn1, 1, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(80, 356)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(159, 37)
+        Me.TableLayoutPanel1.TabIndex = 23
+        '
+        'btn4
+        '
+        Me.btn4.Location = New System.Drawing.Point(3, 3)
+        Me.btn4.Name = "btn4"
+        Me.btn4.Size = New System.Drawing.Size(73, 31)
+        Me.btn4.TabIndex = 3
+        Me.btn4.Text = "Keluar"
+        Me.btn4.UseVisualStyleBackColor = True
+        '
+        'btn1
+        '
+        Me.btn1.Location = New System.Drawing.Point(82, 3)
+        Me.btn1.Name = "btn1"
+        Me.btn1.Size = New System.Drawing.Size(73, 31)
+        Me.btn1.TabIndex = 0
+        Me.btn1.Text = "Tambah"
+        Me.btn1.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox2.Controls.Add(Me.btnfilter)
+        Me.GroupBox2.Controls.Add(Me.txtfilter)
+        Me.GroupBox2.Controls.Add(Me.cbfilter)
+        Me.GroupBox2.Location = New System.Drawing.Point(315, 61)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(500, 52)
+        Me.GroupBox2.TabIndex = 22
+        Me.GroupBox2.TabStop = False
+        '
+        'btnfilter
+        '
+        Me.btnfilter.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnfilter.Location = New System.Drawing.Point(436, 18)
+        Me.btnfilter.Name = "btnfilter"
+        Me.btnfilter.Size = New System.Drawing.Size(58, 23)
+        Me.btnfilter.TabIndex = 10
+        Me.btnfilter.Text = "Cari"
+        Me.btnfilter.UseVisualStyleBackColor = True
+        '
+        'txtfilter
+        '
+        Me.txtfilter.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtfilter.Location = New System.Drawing.Point(131, 20)
+        Me.txtfilter.Name = "txtfilter"
+        Me.txtfilter.Size = New System.Drawing.Size(299, 20)
+        Me.txtfilter.TabIndex = 10
+        '
+        'cbfilter
+        '
+        Me.cbfilter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbfilter.FormattingEnabled = True
+        Me.cbfilter.Location = New System.Drawing.Point(6, 19)
+        Me.cbfilter.Name = "cbfilter"
+        Me.cbfilter.Size = New System.Drawing.Size(119, 21)
+        Me.cbfilter.TabIndex = 10
+        '
+        'Panel1
+        '
+        Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel1.BackColor = System.Drawing.Color.PowderBlue
+        Me.Panel1.Controls.Add(Me.Label6)
+        Me.Panel1.Location = New System.Drawing.Point(1, 1)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(832, 54)
+        Me.Panel1.TabIndex = 20
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(12, 14)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(181, 25)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "Data Peminjaman"
+        '
+        'dgv1
+        '
+        Me.dgv1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv1.Location = New System.Drawing.Point(315, 119)
+        Me.dgv1.Name = "dgv1"
+        Me.dgv1.Size = New System.Drawing.Size(500, 291)
+        Me.dgv1.TabIndex = 19
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Label10)
+        Me.GroupBox1.Controls.Add(Me.txtnama)
+        Me.GroupBox1.Controls.Add(Me.Label9)
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.Label5)
+        Me.GroupBox1.Controls.Add(Me.txtmember)
+        Me.GroupBox1.Controls.Add(Me.txtjudul)
+        Me.GroupBox1.Controls.Add(Me.Button3)
+        Me.GroupBox1.Controls.Add(Me.txtpegawai)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.Button2)
+        Me.GroupBox1.Controls.Add(Me.txtkode)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.txtkaset)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.tglkembali)
+        Me.GroupBox1.Controls.Add(Me.tglpinjam)
+        Me.GroupBox1.Controls.Add(Me.Button5)
+        Me.GroupBox1.Controls.Add(Me.txtpinjam)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Location = New System.Drawing.Point(13, 61)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(296, 278)
+        Me.GroupBox1.TabIndex = 21
+        Me.GroupBox1.TabStop = False
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(6, 236)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(79, 13)
+        Me.Label10.TabIndex = 27
+        Me.Label10.Text = "Nama Pegawai"
+        '
+        'txtnama
+        '
+        Me.txtnama.Location = New System.Drawing.Point(92, 233)
+        Me.txtnama.Name = "txtnama"
+        Me.txtnama.ReadOnly = True
+        Me.txtnama.Size = New System.Drawing.Size(185, 20)
+        Me.txtnama.TabIndex = 26
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(6, 184)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(76, 13)
+        Me.Label9.TabIndex = 25
+        Me.Label9.Text = "Nama Member"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(6, 132)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(62, 13)
+        Me.Label8.TabIndex = 24
+        Me.Label8.Text = "Judul Kaset"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(6, 79)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(62, 13)
+        Me.Label7.TabIndex = 23
+        Me.Label7.Text = "Tgl Kembali"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(6, 53)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(56, 13)
+        Me.Label5.TabIndex = 22
+        Me.Label5.Text = "Tgl Pinjam"
+        '
+        'txtmember
+        '
+        Me.txtmember.Location = New System.Drawing.Point(92, 181)
+        Me.txtmember.Name = "txtmember"
+        Me.txtmember.ReadOnly = True
+        Me.txtmember.Size = New System.Drawing.Size(185, 20)
+        Me.txtmember.TabIndex = 21
+        '
+        'txtjudul
+        '
+        Me.txtjudul.Location = New System.Drawing.Point(92, 129)
+        Me.txtjudul.Name = "txtjudul"
+        Me.txtjudul.ReadOnly = True
+        Me.txtjudul.Size = New System.Drawing.Size(185, 20)
+        Me.txtjudul.TabIndex = 20
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(219, 205)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(58, 23)
+        Me.Button3.TabIndex = 19
+        Me.Button3.Text = "Baru"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'txtpegawai
+        '
+        Me.txtpegawai.Location = New System.Drawing.Point(92, 207)
+        Me.txtpegawai.Name = "txtpegawai"
+        Me.txtpegawai.ReadOnly = True
+        Me.txtpegawai.Size = New System.Drawing.Size(121, 20)
+        Me.txtpegawai.TabIndex = 18
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(6, 210)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(76, 13)
+        Me.Label4.TabIndex = 17
+        Me.Label4.Text = "Kode Pegawai"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(219, 153)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(58, 23)
+        Me.Button2.TabIndex = 16
+        Me.Button2.Text = "Baru"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'txtkode
+        '
+        Me.txtkode.Location = New System.Drawing.Point(92, 155)
+        Me.txtkode.Name = "txtkode"
+        Me.txtkode.ReadOnly = True
+        Me.txtkode.Size = New System.Drawing.Size(121, 20)
+        Me.txtkode.TabIndex = 15
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(6, 158)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(73, 13)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Kode Member"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(219, 101)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(58, 23)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "Baru"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'txtkaset
+        '
+        Me.txtkaset.Location = New System.Drawing.Point(92, 103)
+        Me.txtkaset.Name = "txtkaset"
+        Me.txtkaset.ReadOnly = True
+        Me.txtkaset.Size = New System.Drawing.Size(121, 20)
+        Me.txtkaset.TabIndex = 12
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(6, 106)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(62, 13)
+        Me.Label2.TabIndex = 11
+        Me.Label2.Text = "Kode Kaset"
+        '
+        'tglkembali
+        '
+        Me.tglkembali.Location = New System.Drawing.Point(92, 77)
+        Me.tglkembali.Name = "tglkembali"
+        Me.tglkembali.Size = New System.Drawing.Size(185, 20)
+        Me.tglkembali.TabIndex = 10
+        '
+        'tglpinjam
+        '
+        Me.tglpinjam.Location = New System.Drawing.Point(92, 51)
+        Me.tglpinjam.Name = "tglpinjam"
+        Me.tglpinjam.Size = New System.Drawing.Size(185, 20)
+        Me.tglpinjam.TabIndex = 9
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(219, 23)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(58, 23)
+        Me.Button5.TabIndex = 8
+        Me.Button5.Text = "Baru"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'txtpinjam
+        '
+        Me.txtpinjam.Location = New System.Drawing.Point(92, 25)
+        Me.txtpinjam.Name = "txtpinjam"
+        Me.txtpinjam.ReadOnly = True
+        Me.txtpinjam.Size = New System.Drawing.Size(121, 20)
+        Me.txtpinjam.TabIndex = 5
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(6, 28)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(55, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "No Pinjam"
+        '
+        'Panel2
+        '
+        Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel2.BackColor = System.Drawing.Color.PowderBlue
+        Me.Panel2.Controls.Add(Me.Label11)
+        Me.Panel2.Location = New System.Drawing.Point(1, 1)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(832, 54)
+        Me.Panel2.TabIndex = 21
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(12, 14)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(181, 25)
+        Me.Label11.TabIndex = 0
+        Me.Label11.Text = "Data Peminjaman"
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(7, 109)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(808, 301)
+        Me.DataGridView1.TabIndex = 23
+        '
+        'tglawal
+        '
+        Me.tglawal.Location = New System.Drawing.Point(18, 83)
+        Me.tglawal.Name = "tglawal"
+        Me.tglawal.Size = New System.Drawing.Size(200, 20)
+        Me.tglawal.TabIndex = 24
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(15, 67)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(51, 13)
+        Me.Label12.TabIndex = 25
+        Me.Label12.Text = "Tgl. Awal"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(229, 67)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(52, 13)
+        Me.Label13.TabIndex = 27
+        Me.Label13.Text = "Tgl. Akhir"
+        '
+        'tglakhir
+        '
+        Me.tglakhir.Location = New System.Drawing.Point(232, 83)
+        Me.tglakhir.Name = "tglakhir"
+        Me.tglakhir.Size = New System.Drawing.Size(200, 20)
+        Me.tglakhir.TabIndex = 26
+        '
+        'btntampil
+        '
+        Me.btntampil.Location = New System.Drawing.Point(453, 80)
+        Me.btntampil.Name = "btntampil"
+        Me.btntampil.Size = New System.Drawing.Size(75, 23)
+        Me.btntampil.TabIndex = 28
+        Me.btntampil.Text = "Tampilkan"
+        Me.btntampil.UseVisualStyleBackColor = True
+        '
+        'txtlap
+        '
+        Me.txtlap.Location = New System.Drawing.Point(534, 80)
+        Me.txtlap.Name = "txtlap"
+        Me.txtlap.Size = New System.Drawing.Size(75, 23)
+        Me.txtlap.TabIndex = 29
+        Me.txtlap.Text = "Laporan"
+        Me.txtlap.UseVisualStyleBackColor = True
+        '
+        'Peminjaman32
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(832, 441)
+        Me.Controls.Add(Me.TabControl1)
+        Me.MinimumSize = New System.Drawing.Size(848, 480)
+        Me.Name = "Peminjaman32"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Peminjaman"
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.dgv1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
+    End Sub
+
+    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents btn4 As Button
+    Friend WithEvents btn1 As Button
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents btnfilter As Button
+    Friend WithEvents txtfilter As TextBox
+    Friend WithEvents cbfilter As ComboBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label6 As Label
+    Friend WithEvents dgv1 As DataGridView
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents txtnama As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents txtmember As TextBox
+    Friend WithEvents txtjudul As TextBox
+    Friend WithEvents Button3 As Button
+    Friend WithEvents txtpegawai As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents txtkode As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents txtkaset As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents tglkembali As DateTimePicker
+    Friend WithEvents tglpinjam As DateTimePicker
+    Friend WithEvents Button5 As Button
+    Friend WithEvents txtpinjam As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents txtlap As Button
+    Friend WithEvents btntampil As Button
+    Friend WithEvents Label13 As Label
+    Friend WithEvents tglakhir As DateTimePicker
+    Friend WithEvents Label12 As Label
+    Friend WithEvents tglawal As DateTimePicker
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label11 As Label
+End Class

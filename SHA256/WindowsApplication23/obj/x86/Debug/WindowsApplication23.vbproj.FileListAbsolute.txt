@@ -1,0 +1,14 @@
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\obj\x86\Debug\ResolveAssemblyReference.cache
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\obj\x86\Debug\WindowsApplication23.Form1.resources
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\obj\x86\Debug\WindowsApplication23.Resources.resources
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\obj\x86\Debug\GenerateResource.read.1.tlog
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\obj\x86\Debug\GenerateResource.write.1.tlog
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\bin\Debug\WindowsApplication23.exe
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\bin\Debug\WindowsApplication23.pdb
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\bin\Debug\WindowsApplication23.xml
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\obj\x86\Debug\WindowsApplication23.exe
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\obj\x86\Debug\WindowsApplication23.xml
+\\mcnserver2\userprofiles\sjuneja\my documents\visual studio 2010\Projects\WindowsApplication23\WindowsApplication23\obj\x86\Debug\WindowsApplication23.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\SHA256\WindowsApplication23\obj\x86\Debug\WindowsApplication23.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\SHA256\WindowsApplication23\obj\x86\Debug\WindowsApplication23.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\SHA256\WindowsApplication23\obj\x86\Debug\WindowsApplication23.pdb

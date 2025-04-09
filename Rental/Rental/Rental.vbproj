@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{223DEC6E-11B8-48F8-B812-511BD9306135}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Rental.My.MyApplication</StartupObject>
+    <RootNamespace>Rental</RootNamespace>
+    <AssemblyName>Rental</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Rental.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Rental.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Project\File\Pengaturan.Designer.vb">
+      <DependentUpon>Pengaturan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\File\Pengaturan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Squek.vb" />
+    <Compile Include="Project\File\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\File\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\File\MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\File\MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Project\Master\Kaset.Designer.vb">
+      <DependentUpon>Kaset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Master\Kaset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Master\Member.Designer.vb">
+      <DependentUpon>Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Master\Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Master\Pegawai.Designer.vb">
+      <DependentUpon>Pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Master\Pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hid\Peminjaman222.Designer.vb">
+      <DependentUpon>Peminjaman222.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hid\Peminjaman222.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hid\bla.Designer.vb">
+      <DependentUpon>bla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hid\bla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Transaksi\Cari\CariKaset.Designer.vb">
+      <DependentUpon>CariKaset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Transaksi\Cari\CariKaset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Transaksi\Cari\cariMember.Designer.vb">
+      <DependentUpon>cariMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Transaksi\Cari\cariMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Transaksi\Kembali.Designer.vb">
+      <DependentUpon>Kembali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Transaksi\Kembali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Transaksi\Laporan\LaporanKembali.Designer.vb">
+      <DependentUpon>LaporanKembali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Transaksi\Laporan\LaporanKembali.vb" />
+    <Compile Include="Project\Transaksi\Laporan\LaporanKembaliSap.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanKembaliSap.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Project\Transaksi\Laporan\LaporanPinjam.Designer.vb">
+      <DependentUpon>LaporanPinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Transaksi\Laporan\LaporanPinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Transaksi\Laporan\LaporanPinjamSap.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanPinjamSap.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Project\Transaksi\Peminjam.Designer.vb">
+      <DependentUpon>Peminjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Transaksi\Peminjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hid\Pinjam.Designer.vb">
+      <DependentUpon>Pinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hid\Pinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\File\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\File\MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\File\Pengaturan.resx">
+      <DependentUpon>Pengaturan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Master\Kaset.resx">
+      <DependentUpon>Kaset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Master\Member.resx">
+      <DependentUpon>Member.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Master\Pegawai.resx">
+      <DependentUpon>Pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hid\Peminjaman222.resx">
+      <DependentUpon>Peminjaman222.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hid\bla.resx">
+      <DependentUpon>bla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Transaksi\Cari\CariKaset.resx">
+      <DependentUpon>CariKaset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Transaksi\Cari\cariMember.resx">
+      <DependentUpon>cariMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Transaksi\Kembali.resx">
+      <DependentUpon>Kembali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Transaksi\Laporan\LaporanKembali.resx">
+      <DependentUpon>LaporanKembali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Transaksi\Laporan\LaporanKembaliSap.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanKembaliSap.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Transaksi\Laporan\LaporanPinjam.resx">
+      <DependentUpon>LaporanPinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Transaksi\Laporan\LaporanPinjamSap.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LaporanPinjamSap.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Transaksi\Peminjam.resx">
+      <DependentUpon>Peminjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hid\Pinjam.resx">
+      <DependentUpon>Pinjam.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

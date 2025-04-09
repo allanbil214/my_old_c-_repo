@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{396C9572-2BCC-476F-8BA5-12162F6B6B57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>NewBakery.My.MyApplication</StartupObject>
+    <RootNamespace>NewBakery</RootNamespace>
+    <AssemblyName>NewBakery</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>NewBakery.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>NewBakery.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\File\ChangePasswordForm.Designer.vb">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\ChangePasswordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\File\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Data\Squek.vb" />
+    <Compile Include="Assets\Data\Squeking.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Squeking.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Data\TemplateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Data\TemplateForm.Designer.vb">
+      <DependentUpon>TemplateForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Gaguna\Class1.vb" />
+    <Compile Include="Assets\Gaguna\CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Assets\Gaguna\CrystalReport2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Assets\Gaguna\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Gaguna\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Incoming Raw Material\InputIncomingRawMaterialForm.Designer.vb">
+      <DependentUpon>InputIncomingRawMaterialForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Incoming Raw Material\InputIncomingRawMaterialForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Incoming Raw Material\ViewIncomingRawMaterialForm.Designer.vb">
+      <DependentUpon>ViewIncomingRawMaterialForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Incoming Raw Material\ViewIncomingRawMaterialForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Manage\EmployeeForm.Designer.vb">
+      <DependentUpon>EmployeeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Manage\EmployeeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Manage\FoodForm.Designer.vb">
+      <DependentUpon>FoodForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Manage\FoodForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Manage\RawMaterialForm.Designer.vb">
+      <DependentUpon>RawMaterialForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Manage\RawMaterialForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Manage\RecipeForm.Designer.vb">
+      <DependentUpon>RecipeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Manage\RecipeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Production\AddProductionForm.Designer.vb">
+      <DependentUpon>AddProductionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Production\AddProductionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Production\ViewProductionForm.Designer.vb">
+      <DependentUpon>ViewProductionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Production\ViewProductionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Selling\InputSellingForm.Designer.vb">
+      <DependentUpon>InputSellingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Selling\InputSellingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Selling\ViewInputSellingForm.Designer.vb">
+      <DependentUpon>ViewInputSellingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Selling\ViewInputSellingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Stock\ViewFoodStockForm.Designer.vb">
+      <DependentUpon>ViewFoodStockForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Stock\ViewFoodStockForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Stock\ViewRawMaterialStockForm.Designer.vb">
+      <DependentUpon>ViewRawMaterialStockForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Stock\ViewRawMaterialStockForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\File\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\File\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\File\LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Data\TemplateForm.resx">
+      <DependentUpon>TemplateForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Gaguna\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Gaguna\CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Gaguna\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Incoming Raw Material\InputIncomingRawMaterialForm.resx">
+      <DependentUpon>InputIncomingRawMaterialForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Incoming Raw Material\ViewIncomingRawMaterialForm.resx">
+      <DependentUpon>ViewIncomingRawMaterialForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Manage\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Manage\FoodForm.resx">
+      <DependentUpon>FoodForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Manage\RawMaterialForm.resx">
+      <DependentUpon>RawMaterialForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Manage\RecipeForm.resx">
+      <DependentUpon>RecipeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Production\AddProductionForm.resx">
+      <DependentUpon>AddProductionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Production\ViewProductionForm.resx">
+      <DependentUpon>ViewProductionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Selling\InputSellingForm.resx">
+      <DependentUpon>InputSellingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Selling\ViewInputSellingForm.resx">
+      <DependentUpon>ViewInputSellingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Stock\ViewFoodStockForm.resx">
+      <DependentUpon>ViewFoodStockForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Stock\ViewRawMaterialStockForm.resx">
+      <DependentUpon>ViewRawMaterialStockForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Data\Squeking.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Squeking.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Assets\Data\Squeking.dbml.layout">
+      <DependentUpon>Squeking.dbml</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

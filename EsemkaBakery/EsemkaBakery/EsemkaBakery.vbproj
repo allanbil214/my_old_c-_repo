@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AC382734-3C5C-4EEF-AACA-A68EDB571407}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EsemkaBakery.My.MyApplication</StartupObject>
+    <RootNamespace>EsemkaBakery</RootNamespace>
+    <AssemblyName>EsemkaBakery</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EsemkaBakery.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EsemkaBakery.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Database\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Database\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Database\LinQ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LinQ.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Database\Squek.vb" />
+    <Compile Include="Assets\Database\TemplateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Database\TemplateForm.Designer.vb">
+      <DependentUpon>TemplateForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\File\ChangePasswordForm.Designer.vb">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\ChangePasswordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\File\LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\File\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Incoming Raw Material\InputIncomingRawMaterialForm.Designer.vb">
+      <DependentUpon>InputIncomingRawMaterialForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Incoming Raw Material\InputIncomingRawMaterialForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Incoming Raw Material\ViewIncomingRawMaterialFrom.Designer.vb">
+      <DependentUpon>ViewIncomingRawMaterialFrom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Incoming Raw Material\ViewIncomingRawMaterialFrom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Manage\EmployeeForm.Designer.vb">
+      <DependentUpon>EmployeeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Manage\EmployeeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Manage\FoodForm.Designer.vb">
+      <DependentUpon>FoodForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Manage\FoodForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Manage\RawMaterialForm.Designer.vb">
+      <DependentUpon>RawMaterialForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Manage\RawMaterialForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Manage\RecipeForm.Designer.vb">
+      <DependentUpon>RecipeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Manage\RecipeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Production\AddProductionForm.Designer.vb">
+      <DependentUpon>AddProductionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Production\AddProductionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Production\ViewProductionForm.Designer.vb">
+      <DependentUpon>ViewProductionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Production\ViewProductionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Selling\InputSellingForm.Designer.vb">
+      <DependentUpon>InputSellingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Selling\InputSellingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Selling\ViewSellingForm.Designer.vb">
+      <DependentUpon>ViewSellingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Selling\ViewSellingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Stock\ViewFoodStockForm.Designer.vb">
+      <DependentUpon>ViewFoodStockForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Stock\ViewFoodStockForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Stock\ViewRawMaterialStockForm.Designer.vb">
+      <DependentUpon>ViewRawMaterialStockForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Stock\ViewRawMaterialStockForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Database\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\File\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\File\LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\File\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Incoming Raw Material\InputIncomingRawMaterialForm.resx">
+      <DependentUpon>InputIncomingRawMaterialForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Incoming Raw Material\ViewIncomingRawMaterialFrom.resx">
+      <DependentUpon>ViewIncomingRawMaterialFrom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Manage\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Manage\FoodForm.resx">
+      <DependentUpon>FoodForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Manage\RawMaterialForm.resx">
+      <DependentUpon>RawMaterialForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Manage\RecipeForm.resx">
+      <DependentUpon>RecipeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Production\AddProductionForm.resx">
+      <DependentUpon>AddProductionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Production\ViewProductionForm.resx">
+      <DependentUpon>ViewProductionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Selling\InputSellingForm.resx">
+      <DependentUpon>InputSellingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Selling\ViewSellingForm.resx">
+      <DependentUpon>ViewSellingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Stock\ViewFoodStockForm.resx">
+      <DependentUpon>ViewFoodStockForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Stock\ViewRawMaterialStockForm.resx">
+      <DependentUpon>ViewRawMaterialStockForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Database\TemplateFOrm.resx">
+      <DependentUpon>TemplateForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Database\LinQ.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LinQ.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Assets\Database\LinQ.dbml.layout">
+      <DependentUpon>LinQ.dbml</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.25" name="Squek">
+  <DataContextMoniker Name="/SquekDataContext" />
+  <nestedChildShapes>
+    <classShape Id="842b38a2-677b-47e6-9601-9e128af5e515" absoluteBounds="6.75, 7.125, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SquekDataContext/Denda" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71dcb9f4-7f82-48ce-830c-e2c5fffd06a5" absoluteBounds="6.765, 7.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2600bd7a-2279-4826-b544-9186dd4b5420" absoluteBounds="3.5, 3.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SquekDataContext/PinjamHeader" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a003981-2da8-4a31-8266-cef7d843d8b2" absoluteBounds="3.515, 4.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71005494-7a54-4fdb-ba1d-9f4c0e741fee" absoluteBounds="0.75, 3.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SquekDataContext/Karyawan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="55c675c8-af12-4ece-922d-ccce95fadc98" absoluteBounds="0.765, 4.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="effcb16e-0650-459c-a57e-d0e00e938bf7" absoluteBounds="3.5, 7.25, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/SquekDataContext/Kaset" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f07f150-27fe-42c1-8d32-6a8b4d8a7d59" absoluteBounds="3.515, 7.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50762b51-4c86-4d13-87f1-155899d7f77d" absoluteBounds="6.25, 3.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/SquekDataContext/Kembali" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab91b29a-829a-49e7-9642-af4480ef814c" absoluteBounds="6.265, 4.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e4bf4ee-dc43-4b6c-b40e-d5a090910185" absoluteBounds="0.75, 1, 2, 1.5785953776041668">
+      <DataClassMoniker Name="/SquekDataContext/Pelanggan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdb6588b-7b79-4d9b-ae70-eb80f9f88d85" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7b8f337-a574-4e2b-9a8c-98af930b303d" absoluteBounds="6.25, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SquekDataContext/PinjamDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1b649caf-bd72-4093-b31a-23c95c537c94" absoluteBounds="6.265, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 4.70274983723958); (3.5 : 4.70274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SquekDataContext/Karyawan/Karyawan_PinjamHeader" />
+      <nodes>
+        <classShapeMoniker Id="71005494-7a54-4fdb-ba1d-9f4c0e741fee" />
+        <classShapeMoniker Id="2600bd7a-2279-4826-b544-9186dd4b5420" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.78049967447917); (3.125 : 6.15549967447917); (3.125 : 6.0881982421875); (5.875 : 6.0881982421875); (6.25 : 5.7131982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SquekDataContext/Karyawan/Karyawan_Kembali" />
+      <nodes>
+        <classShapeMoniker Id="71005494-7a54-4fdb-ba1d-9f4c0e741fee" />
+        <classShapeMoniker Id="50762b51-4c86-4d13-87f1-155899d7f77d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.70034662109375); (5.79166666666667 : 4.70034662109375 : JumpStart); (5.95833333333333 : 4.70034662109375 : JumpEnd); (6.25 : 4.70034662109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SquekDataContext/PinjamHeader/PinjamHeader_Kembali" />
+      <nodes>
+        <classShapeMoniker Id="2600bd7a-2279-4826-b544-9186dd4b5420" />
+        <classShapeMoniker Id="50762b51-4c86-4d13-87f1-155899d7f77d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.78929768880208); (4.5 : 1.78929768880208); (4.5 : 3.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SquekDataContext/Pelanggan/Pelanggan_PinjamHeader" />
+      <nodes>
+        <classShapeMoniker Id="8e4bf4ee-dc43-4b6c-b40e-d5a090910185" />
+        <classShapeMoniker Id="2600bd7a-2279-4826-b544-9186dd4b5420" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.25); (5.875 : 6.875); (5.875 : 1.73159912109375); (6.25 : 1.73159912109375)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SquekDataContext/Kaset/Kaset_PinjamDetail" />
+      <nodes>
+        <classShapeMoniker Id="effcb16e-0650-459c-a57e-d0e00e938bf7" />
+        <classShapeMoniker Id="b7b8f337-a574-4e2b-9a8c-98af930b303d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.0312525 : 3.625); (5.0312525 : 2.25124796549479); (5.79166666666667 : 2.25124796549479 : JumpStart); (5.95833333333333 : 2.25124796549479 : JumpEnd); (6.25 : 2.25124796549479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SquekDataContext/PinjamHeader/PinjamHeader_PinjamDetail" />
+      <nodes>
+        <classShapeMoniker Id="2600bd7a-2279-4826-b544-9186dd4b5420" />
+        <classShapeMoniker Id="b7b8f337-a574-4e2b-9a8c-98af930b303d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

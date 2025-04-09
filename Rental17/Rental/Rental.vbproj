@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{95ED969E-7A78-43CC-9004-70968C02A7E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Rental.My.MyApplication</StartupObject>
+    <RootNamespace>Rental</RootNamespace>
+    <AssemblyName>Rental</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Rental.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Rental.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\File\ChangePasswordForm.Designer.vb">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\ChangePasswordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\File\LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\File\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\File\Squek.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Squek.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\File\TemplateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\File\TemplateForm.Designer.vb">
+      <DependentUpon>TemplateForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Master\KaryawanForm.Designer.vb">
+      <DependentUpon>KaryawanForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Master\KaryawanForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Master\KasetForm.Designer.vb">
+      <DependentUpon>KasetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Master\KasetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Master\PelangganForm.Designer.vb">
+      <DependentUpon>PelangganForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Master\PelangganForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\Squeking.vb" />
+    <Compile Include="Assets\Transaction\PinjamForm.Designer.vb">
+      <DependentUpon>PinjamForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Transaction\PinjamForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assets\View\Chart.Designer.vb">
+      <DependentUpon>Chart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\View\Chart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\File\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\File\LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\File\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\File\TemplateForm.resx">
+      <DependentUpon>TemplateForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Master\KaryawanForm.resx">
+      <DependentUpon>KaryawanForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Master\KasetForm.resx">
+      <DependentUpon>KasetForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Master\PelangganForm.resx">
+      <DependentUpon>PelangganForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Transaction\PinjamForm.resx">
+      <DependentUpon>PinjamForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\View\Chart.resx">
+      <DependentUpon>Chart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\File\Squek.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Squek.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Assets\File\Squek.dbml.layout">
+      <DependentUpon>Squek.dbml</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
